@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="{{ url_for('static', filename='index.js')}}"></script>
+    </head>
+    <body>
+        <div>
+            <label>Display Name</label>
+            <p id="msg"></p>
+            <form id="displayname">
+                <input id="username" type="text" placeholder="Enter your display name" autofocus autocomplete="off">
+                <input id="submit1" type="submit">
+            </form>
+        </div>
+        <div>
+            <ul id="channellist" >
+            </ul>
+            <form id='addchannel'>
+                <input id="channel" type="text" placeholder="Enter the name of chanel" autofocus autocomplete="off">
+                <input type="submit">
+            </form>
+        </div>
+
+
+    </body>
+
+</html>
